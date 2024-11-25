@@ -1,0 +1,19 @@
+name: KevlarOilRigs
+version: 1.0
+main: kevlar.kevlarOilRigs.KevlarOilRigs
+api-version: 1.20
+description: A plugin that creates oil rigs that generate oil buckets
+
+commands:
+  kevlaroilrigs:
+    description: Main command for KevlarOilRigs plugin
+    aliases: [oilrigs, or]
+    permission: kevlaroilrigs.admin
+    usage: |
+      /<command> reload - Reloads the configuration
+      /<command> forcedeposit - Forces nearby oil rigs to produce oil
+
+permissions:
+  kevlaroilrigs.admin:
+    description: Allows access to admin commands
+    default: op

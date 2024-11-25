@@ -1,0 +1,14 @@
+# Time in seconds between each oil bucket generation
+generation-delay: 60
+
+# List of biomes where oil rigs can work
+allowed-biomes:
+  - OCEAN
+  - DEEP_OCEAN
+  - FROZEN_OCEAN
+  - DEEP_FROZEN_OCEAN
+  - COLD_OCEAN
+  - DEEP_COLD_OCEAN
+  - LUKEWARM_OCEAN
+  - DEEP_LUKEWARM_OCEAN
+  - WARM_OCEAN
